@@ -1,0 +1,57 @@
+/* 
+====================================================================
+    30. Contact css start
+====================================================================
+*/
+.cs-contact-one {
+    padding: 110px 0px 30px;
+}
+.cs-contact-col {
+    margin-bottom: 50px;
+}
+.cs-contact-col .hexagon {
+    text-align: center;
+    padding-top: 15px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.cs-contact-col:hover .hexagon {
+    background: $galliano;
+}
+.cs-contact-col:hover .hexagon:before {
+    border-bottom: 25px solid $galliano;
+}
+.cs-contact-col:hover .hexagon:after {
+    border-top: 25px solid $galliano;
+}
+.cs-contact-col .hexagon span {
+    color: $white;
+    text-align: center;
+}
+.cs-contact-col h3{
+    font-family: $font-text-alt;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.cs-contact-col a {
+    color: $mine-shaft;
+}
+.cs-contact-col a:hover {
+    color: $galliano;
+}
+.cs-contact-one .cs-contact-field h5 {
+    font-family: $font-text;
+    font-size: 24px;
+    font-weight: normal;
+}
+.cs-contact-two .map-section {
+    margin-bottom: 80px;
+}
+.cs-map-area {
+    padding-bottom: 50px;
+}
+.cs-contact-two h5 {
+    font-family: $font-text;
+    font-size: 24px;
+    font-weight: normal;
+}

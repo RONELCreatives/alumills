@@ -1,0 +1,131 @@
+/*
+====================================================================
+    6. Theme Button css start
+====================================================================
+*/
+
+.btn-cart {
+    background: $cerulean-blue;
+    color: $white;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.btn-cart:hover {
+    background: $yellow-light;
+    color: $white !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.btn-shop {
+    background: $gray-dark;
+    color: $white;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.btn-shop:hover {
+    background: $cerulean-blue;
+    color: $white !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.cs-my-btn-black {
+    background: $cod-gray;
+    color: $white;
+    box-shadow: 1px 0px 4px rgba(0,0,0,75);
+    padding: 12px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.cs-my-btn-black:hover {
+    background: $white;
+    color: $cod-gray !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.cs-my-btn-white {
+    background: $white;
+    color: $cod-gray !important;
+    box-shadow: 3px 4px 7px rgba(152, 150, 148, 0.5);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.cs-my-btn-white:hover {
+    background: $cod-gray;
+    color: $white !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.cs-my-btn-brown {
+    background: $galliano;
+    color: $white !important;
+    box-shadow: 1px 0px 4px rgba(198,164,126,75);
+    padding: 12px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.cs-my-btn-brown:hover {
+    background: $teak;
+    color: $white !important;
+    -webkit-box-shadow: 6px 7px 11px -8px rgba(198,164,126,1);
+    -moz-box-shadow: 6px 7px 11px -8px rgba(198,164,126,1);
+    box-shadow: 6px 7px 11px -8px rgba(198,164,126,1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}

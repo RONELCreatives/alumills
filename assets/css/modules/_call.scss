@@ -1,0 +1,116 @@
+/* 
+====================================================================
+    20. Call Details css start
+====================================================================
+*/
+.cs-details-area {
+    padding: 80px 0 50px; 
+}
+.cs-details-area .cs-details-col {
+    margin-bottom: 30px;
+}
+.cs-details-area .cs-look-img {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-details-area .cs-look-img:hover {
+    -webkit-box-shadow: 0px 1px 44px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 44px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 44px -7px rgba(0,0,0,0.75);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-room-detail {
+    position: relative;
+}
+.cs-round-point {
+    position: absolute;
+    right: 60px;
+    top: 78px;
+    width: 5px;
+    height: 5px;
+    background: #C1C1C1;
+    border-radius: 50%;
+}
+.cs-round-point::before {
+    content: " ";
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 100px;
+    height: 1px;
+    background: $galliano;
+    z-index: 999;
+}
+.cs-round-point-two {
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    width: 5px;
+    height: 5px;
+    background: #C1C1C1;
+    border-radius: 50%;
+}
+.cs-round-point-two::before {
+    content: " ";
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    width: 100px;
+    height: 1px;
+    background: $galliano;
+    z-index: 999;
+}
+.cs-details-area .cs-details-col h2 {
+    font-family: $font-text-alt;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.cs-details-area .cs-details-col h2 span{
+    color: $galliano;
+}
+.cs-details-area .cs-details-col .hexagon {
+    width: 54px;
+    height: 35px;
+    margin-bottom: 25px;
+    padding-top: 3px;
+}
+
+.cs-details-area .cs-details-col .hexagon img {
+    width: 26px;
+    height: 28px;
+}
+.cs-details-area .cs-details-col .hexagon::before {
+    top: -15px;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    border-bottom: 15px solid $cod-gray;
+}
+.cs-details-area .cs-details-col .hexagon::after {
+    bottom: -15px;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    border-top: 15px solid $cod-gray;
+}
+.cs-details-area .cs-details-col h5 {
+    letter-spacing: 1px;
+    font-family: $font-text-alt;
+    margin-bottom: 0;
+    line-height: 26px; 
+}
+.cs-details-area .cs-details-col:hover .hexagon {
+    background: $galliano;
+}
+.cs-details-area .cs-details-col:hover .hexagon::before,
+.cs-details-area .cs-details-col:hover .hexagon::after {
+    border-bottom-color: $galliano;
+    border-top-color: $galliano;
+}

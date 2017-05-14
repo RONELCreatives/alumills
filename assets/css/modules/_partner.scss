@@ -1,0 +1,19 @@
+/* 
+====================================================================
+    16. Partner css start
+====================================================================
+*/
+.cs-clients-area {
+    padding: 20px 0 0 10px;
+    background: $cod-gray;
+}
+.slick-prev.slick-arrow,
+.slick-next.slick-arrow {
+    display: none !important;
+}
+.slick-slide {
+    outline: none;
+}
+.single-item img {
+    width: auto;
+}

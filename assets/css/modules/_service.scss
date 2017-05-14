@@ -1,0 +1,95 @@
+
+/* 
+====================================================================
+    13. Service css start
+====================================================================
+*/
+.cs-service-area {
+    padding: 0px 0px 50px;
+}
+.cs-service-area .cs-service-col {
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.hexagon {
+    width: 100px;
+    height: 60px;
+    background: $cod-gray;
+    position: relative;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.hexagon img {
+    width: 42px;
+    height: 45px;
+    margin: auto;
+}
+.hexagon:before {
+    content: " ";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid $cod-gray;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid $cod-gray;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-service-area .cs-service-col:hover .hexagon {
+    background: $galliano;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}                 
+.cs-service-area .cs-service-col:hover .hexagon:after {
+    border-top: 25px solid $galliano;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-service-area .cs-service-col:hover .hexagon:before {
+    border-bottom: 25px solid $galliano;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+ .cs-service-area .cs-service-col h3{
+    font-family: $font-text-alt;
+    font-size: 24px;
+    font-weight: normal;
+ }
+.cs-service-two .mt30{
+    margin-top: 30px;
+}

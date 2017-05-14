@@ -1,0 +1,86 @@
+/* 
+====================================================================
+   21. intro css start
+====================================================================
+*/
+.cs-intro-area {
+    padding: 0px 0 50px;
+}
+.cs-intro-col {
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.cs-intro-overly {
+    width: 100%;
+    min-height: 200px;
+    background: $cod-gray;
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    transform: skewY(10deg);
+    -webkit-transform: skewY(10deg);
+    moz-transform: skewY(10deg);
+    -ms-transform: skewY(10deg);
+    -o-transform: skewY(10deg);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-intro-col:hover .cs-intro-overly {
+    background: $galliano;
+    transform: skewY(0deg);
+    -webkit-transform: skewY(0deg);
+    moz-transform: skewY(0deg);
+    -ms-transform: skewY(0deg);
+    -o-transform: skewY(0deg);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-intro-content {
+    padding: 35px 20px 20px 20px;
+    transform: skewY(-10deg);
+    -webkit-transform: skewY(-10deg);
+    moz-transform: skewY(-10deg);
+    -ms-transform: skewY(-10deg);
+    -o-transform: skewY(-10deg);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-intro-col:hover .cs-intro-content {
+    transform: skewY(0deg);
+    -webkit-transform: skewY(0deg);
+    moz-transform: skewY(0deg);
+    -ms-transform: skewY(0deg);
+    -o-transform: skewY(0deg);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-intro-content h4 a {
+    font-size: 16px;
+    color: $white;
+    font-family: $font-text;
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+}
+.cs-intro-content p {
+    color: $white;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.cs-intro-bdr {
+    width: 115px;
+    height: 1px;
+    background: $white;
+}

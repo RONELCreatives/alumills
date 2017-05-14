@@ -1,0 +1,44 @@
+
+/*
+====================================================================
+    4. Overlay css start
+====================================================================
+*/
+
+.cs-overlay-black::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.cs-overlay-white::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.cs-overlay-brown::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    background-color: rgba(198, 164, 126, 0.9);
+}
+
+.cs-testimonial-area {
+    background-image: url(images/bg/2.jpg);
+}
+.cs-blog-area {
+    background-image: url(images/bg/8.png);
+}

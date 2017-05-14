@@ -1,0 +1,150 @@
+/* 
+====================================================================
+    9. About css start
+====================================================================
+*/
+
+.cs-about-area {
+    padding: 80px 0px 140px;
+}
+.cs-about-box {
+    position: relative;
+    border: 5px solid $galliano;
+    padding: 30px 80px 50px 30px;
+}
+.cs-about-box img {
+    width: 93px;
+    height: 91px;
+}
+.cs-about-box h2 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.cs-about-box h2 span{
+    color: $galliano;
+}
+.details-style h1 span{
+    color: $galliano;
+}
+
+.cs-about-box p {
+    margin-bottom: 20px;
+}
+.cs-about-box a {
+    color: $galliano;
+}
+.cs-about-box a i{
+    padding-top: 3px;
+    margin-left: 5px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-about-box a:hover i {
+    margin-left: 15px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-about-video {
+    margin-top: 60px;
+    margin-left: -100px;
+    position: relative;
+}
+.cs-about-video img {
+    height: 430px;
+    
+}
+.cs-about-video .cs-play-icone {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 42%;
+    padding-top: 14px;
+    width: 64px;
+    height: 64px;
+    background: $cod-gray;
+    text-align: center;
+}
+.cs-about-video a span {
+    font-size: 36px;
+    color: $white;
+}
+
+/*about-two start*/
+.cs-about-two {
+    padding: 80px 0 50px;
+}
+.cs-about-two-col {
+    margin-bottom: 30px;
+}
+.cs-about-two-col .nav-tabs {
+    border: none;
+}
+.cs-about-two-col .nav-tabs>li {
+    float: none;
+}
+.cs-about-two-col .nav-tabs>li>a {
+    border: none;
+}
+.cs-about-two-col .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+    border: none;
+}
+.cs-about-two-col .tabs li {
+    border: 3px solid transparent;
+    margin-bottom: 20px;
+    webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-about-two-col .tabs li:hover {
+    border: 3px solid #F2EBE2;
+    webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-about-two-col .tabs li .cs-tab-btnimg{
+    webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-about-two-col .tabs li:hover .cs-tab-btnimg {
+    opacity: 0.4;
+    webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-about-two-col .tab-content h2 {
+    font-family: $font-text;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.cs-about-two-col .tab-content h2 span {
+    color: $galliano;
+}
+.cs-about-two-col .tab-content h6 {
+    font-family: $font-body;
+    color: #a5a5a5;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.cs-about-two-col .tab-content p {
+    margin-bottom: 25px;
+}

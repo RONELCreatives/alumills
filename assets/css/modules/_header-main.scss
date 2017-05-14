@@ -1,0 +1,393 @@
+/*
+====================================================================
+    7. Main header css start
+====================================================================
+*/
+
+.forcefullwidth_wrapper_tp_banner {
+    z-index: 0;
+}
+.main-header {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.logo img {
+    width: auto;
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+    z-index: 1;
+    position: relative;
+    
+}
+.bounce-in-header.now-visible .logo img {
+    margin-top: 4px;
+    
+}
+.bounce-in-header {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    padding: 0px 0px;
+    background: rgba(26, 26, 26, 0.85);
+    z-index: 0;
+    border-bottom: 1px solid $silver-light;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.bounce-in-header .logo {
+    padding: 6px 0px 2px;
+}
+.float-right {
+    float: right;
+}
+.bounce-in-header.now-visible {
+    z-index: 999;
+    opacity: 1;
+    visibility: visible;
+    -ms-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -op-animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -ms-animation-duration: 500ms;
+    -moz-animation-duration: 500ms;
+    -op-animation-duration: 500ms;
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+    -ms-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -op-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -ms-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -op-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.main-header .header-lower {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.85);
+    z-index: 5;
+}
+.header-style-three.bg-top.bg-color {
+    position: absolute;
+    top: 6%;
+}
+.main-header.header-style-two {
+    position: absolute;
+    top: 5%;
+}
+.main-header.header-style-two .header-lower {
+    background-color: transparent;
+}
+.main-header.header-style-two .nav-outer {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 10px 5px;    
+    border-radius: 20px 0 0;
+}
+.main-header.header-style-three .header-lower {
+    background: none;
+}
+.main-header .nav-outer {
+    position: relative;
+}
+/*
+.main-header.header-style-three .nav-outer {
+    background: rgba(255, 196, 27, .95);
+}
+*/
+.main-header.header-style-three.bg-top {
+    background-color: transparent;
+    position: absolute;
+    top: 6%;
+}
+.main-header.header-style-three.bg-top .nav-outer {
+    background-color: transparent;
+}
+
+.main-header.header-style-three.bg-top.bg-color .nav-outer {
+    background: transparent;
+}
+
+
+.main-menu .navbar-collapse {
+    padding: 0px;
+}
+.main-menu .navigation {
+    position: relative;
+    margin: 0px;
+    font-weight: 700;
+}
+.main-menu .navigation > li {
+    position: relative;
+    float: left;
+    padding: 0px;
+}
+.bounce-in-header .main-menu .navigation > li {
+    margin-right: 0px;
+}
+.main-menu .navigation > li > a {
+    position: relative;
+    display: block;
+    padding: 15px 20px 12px;
+    font-size: 14px;
+    color: $blue-bay;
+/*    color: $white;*/
+    line-height: 30px;
+    border-top: none;
+    border-bottom: 3px solid transparent;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.main-menu .navigation > li > a:hover,
+.main-menu .navigation > li > ul > li > a:hover {
+    color: $galliano;
+}
+.bounce-in-header .main-menu .navigation > li {
+    margin-left: 30px;
+}
+.bounce-in-header .main-menu .navigation > li > a {
+    color: $white;
+    padding: 15px 0px 12px;
+}
+.main-menu .navigation > li:hover > a:after {
+    opacity: 1;
+}
+.main-menu .navigation > li > ul {
+    position: absolute;
+    left: 0px;
+    top: 150%;
+    width: 210px;
+    padding: 0px;
+    z-index: 100;
+    display: none;
+    background: $bluewood;
+/*    background: $white;*/
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.header-style-three .main-menu .navigation > li > ul {
+    background: $curious-blue;
+}
+.main-menu .navigation > li > ul.from-right {
+    left: auto;
+    right: 0px;
+}
+.main-menu .navigation > li > ul > li {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid $white;
+}
+.main-menu .navigation > li > ul > li:last-child {
+    border-bottom: none;
+}
+.main-menu .navigation > li > ul > li > a {
+    position: relative;
+    display: block;
+    padding: 13px 15px 13px 18px;
+    line-height: 22px;
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: $blue-bay;
+/*    color: $white;*/
+    background-color: rgba(255, 255, 255, 0.9);
+/*    background-color: rgba(26, 26, 26, 0.85);*/
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.main-menu .navigation > li > ul > li:hover > a {
+    color: $galliano;
+}
+.main-menu .navigation > li > ul > li.dropdown > a:after {
+    font-family: 'FontAwesome';
+    content: "\f061";
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 10px;
+    height: 20px;
+    display: block;
+    color: $white;
+    line-height: 20px;
+    font-size: 10px;
+    text-align: center;
+    z-index: 5;
+}
+.main-menu .navigation > li > ul > li.dropdown:hover > a:after {
+    color: $white;
+}
+.main-menu .navigation > li > ul > li > ul {
+    position: absolute;
+    left: 120%;
+    top: 0px;
+    width: 200px;
+    padding: 0px;
+    z-index: 100;
+    display: none;
+/*    background: $bluewood;*/
+    background: $white;
+}
+.header-style-three .main-menu .navigation > li > ul > li > ul {
+    background: $curious-blue;
+}
+.main-menu .navigation > li > ul > li > ul > li {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid $white;
+}
+.main-menu .navigation > li > ul > li > ul > li:last-child {
+    border-bottom: none;
+}
+.main-menu .navigation > li > ul > li > ul > li > a {
+    position: relative;
+    display: block;
+    padding: 13px 15px 13px 18px;
+    line-height: 22px;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: $white;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.main-menu .navigation > li > ul > li > ul > li:hover > a {
+    color: $curious-blue;
+}
+.main-menu .navigation > li.dropdown:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+.main-menu .navigation li > ul > li.dropdown:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    left: 100%;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.main-menu .navbar-collapse > ul li.dropdown .dropdown-btn {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    width: 34px;
+    height: 30px;
+    border: 1px solid $white;
+    background: url(../images/icons/icon-submenu.png) center center no-repeat;
+    background-size: 20px;
+    cursor: pointer;
+    z-index: 5;
+    display: none;
+}
+
+.shop-box {
+    font-size: 20px;
+    padding-top: 15px;
+}
+.shop-box a sup {
+    background-color: $galliano;
+    font-size: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+    left: -20px;
+    color: white;
+    top: -20px;
+}
+.shop-box span {
+    padding: 10px;
+    color: $white;
+}
+.shop-box .icon-Search {
+    border-right: 1px solid $white;
+    font-size: 20px;
+}
+
+
+.accordion dt a.active  {
+    color: $cerulean-blue;
+}
+.accordion dt a {
+    color: $gray-dark;
+}
+.accordion dt {
+    border: 1px solid $gray-dark;
+    padding: 15px 26px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.accordion dd {
+    padding: 20px;
+    background-color: #eee;
+    margin-bottom: 15px;
+}
+.coupon-form p{
+    margin-bottom: 20px;
+}
+.accordion .form-group label {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.cart-total li {
+    margin-top: 20px;
+}
+.cart-total span {
+    float: right;
+}
+.cart-total li:last-child {
+    margin-top: 0;
+}
+.cart-item .form-group {
+        border: 1px solid #eee;
+    }
+.border-1 {
+    width: 100%;
+    height: 1px;
+    background-color: #eee;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.bg-gray {
+    background-color: $gray-light;
+}

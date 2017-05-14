@@ -1,0 +1,434 @@
+
+/* 
+====================================================================
+    27. Inner Portfolio css Start
+====================================================================
+*/
+.cs-portfolio-area-two {
+    padding: 0 0 80px;
+}
+.cs-portfolio-area-two .cs-hor-section-title .cs-section-bdr {
+    left: 340px;
+    top: 62px;
+}
+.portfolio .portfolio-item .thumb {
+    position: relative;
+}
+
+.portfolio .portfolio-item .thumb img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portfolio-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.portfolio-item:hover .portfolio-hover,
+.portfolio-item:hover .portfolio-hover .portfolio-info,
+.portfolio-item:hover .portfolio-hover .portfolio-btn {
+    opacity: 1;
+}
+
+
+.portfolio-item:hover .portfolio-hover .portfolio-info {
+    bottom: 60%;
+    margin-bottom: -90px;
+}
+
+.portfolio-item:hover .portfolio-hover .portfolio-btn {
+    top: 44%;
+    margin-top: -45px;
+}
+
+.portfolio-hover .portfolio-info {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(-55%);
+    -ms-transform: translateY(-55%);
+    transform: translateY(-55%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+}
+
+
+.portfolio-hover .portfolio-btn {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-transform: translateY(45%);
+    -ms-transform: translateY(45%);
+    transform: translateY(45%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    font-size: 1.500em;
+}
+
+.portfolio-info,
+.portfolio-info h4 a,
+.portfolio-hover .portfolio-btn a {
+    text-align: center;
+    color: $white;
+}
+.portfolio-info h4 a {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.portfolio-info p a {
+    color: $galliano;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-style: normal;
+}
+
+.portfolio-info h4 {
+    margin-bottom: 0;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio-info p {
+    font-size: 0.750em;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: $gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio-info a,
+.portfolio-title a {
+    color: $gray;
+}
+
+/*gutter*/
+
+.portfolio.gutter .portfolio-item {
+    padding: 10px;
+}
+
+
+/*portfolio 2 grid*/
+
+.portfolio.col-2 .portfolio-item {
+    width: 49.99%;
+}
+
+
+/*portfolio 3 grid*/
+
+.portfolio.col-3 .portfolio-item {
+    width: 33.3333333%;
+}
+
+/*portfolio 4 grid*/
+
+.portfolio.col-4 .portfolio-item {
+    width: 24.98%;
+}
+
+/*portfolio 5 grid*/
+
+.portfolio.col-5 .portfolio-item {
+    width: 19.99%;
+}
+
+/*portfolio 6 grid*/
+
+.portfolio.col-6 .portfolio-item {
+    width: 16.666666667%;
+}
+
+.portfolio-filter {
+    margin:0px;
+    list-style: none;
+}
+
+.portfolio-filter li {
+    display: inline-block;
+}
+
+.portfolio-filter li a {
+    font-size: 14px;
+    color: $mine-shaft;
+    margin: 0 10px;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 3;
+}
+
+
+.portfolio-filter li a:hover,
+.portfolio-filter li.active a{
+    color: $galliano;
+}
+
+.flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {
+    border: medium none;
+    outline: medium none;
+}
+.flex-control-nav {
+    border: medium none;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.flex-direction-nav {
+    display: none;
+}
+.flexslider {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.flex-viewport {
+    max-height: 2000px;
+    transition: all 1s ease 0s;
+}
+.flex-control-nav {
+    bottom: 15px;
+    margin: 0;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    z-index: 10;
+}
+.flex-control-nav li {
+    display: block;
+    float: left;
+    height: 10px;
+    margin: 0 3px;
+    width: 10px;
+}
+.flex-control-nav li a {
+    border: 1px solid $white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    text-indent: -9999px;
+    transition: all 0.3s ease-in-out 0s;
+    width: 10px;
+}
+.flex-control-nav li:hover a, .flex-control-nav li a.flex-active {
+    background-color: $white;
+}
+.flex-direction-nav {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.flex-direction-nav {
+}
+.flex-direction-nav a {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin: -40px 0 0;
+    overflow: hidden;
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    transition: all 0.3s ease-in-out 0s;
+    width: 40px;
+    z-index: 200;
+}
+.flex-direction-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.flex-direction-nav a::before {
+    color: $white;
+    content: "ï„„";
+    display: block;
+    font-family: "fontawesome";
+    font-size: 16px;
+    text-align: center;
+    width: 40px;
+}
+.flex-direction-nav a.flex-next::before {
+    content: "ï„…";
+}
+.flex-direction-nav .flex-prev {
+    left: 0;
+}
+.flex-direction-nav .flex-next {
+    right: 0;
+    text-align: right;
+}
+.post-slider-thumb .flex-control-thumbs {
+    left: auto;
+    margin: 0 auto;
+    position: relative;
+    right: auto;
+    text-align: left;
+    top: 10px;
+    z-index: 10;
+}
+.post-slider-thumb .flex-control-thumbs li {
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    height: auto;
+    margin: 0 3px 0 0;
+    width: 80px;
+}
+.post-slider .flex-direction-nav, .post-slider-thumb .flex-direction-nav {
+    display: block;
+}
+.post-slider .flex-direction-nav .flex-prev, .post-slider .flex-direction-nav .flex-next, .post-slider-thumb .flex-direction-nav .flex-prev, .post-slider-thumb .flex-direction-nav .flex-next {
+    opacity: 0;
+}
+.post-slider:hover .flex-direction-nav .flex-prev, .post-slider:hover .flex-direction-nav .flex-next, .post-slider-thumb:hover .flex-direction-nav .flex-prev, .post-slider-thumb:hover .flex-direction-nav .flex-next {
+    opacity: 1;
+}
+.post-list-aside .post-img img {
+    border: 2px solid transparent;
+}
+.post-list-aside .post-img img.flex-active {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+}
+.post-slider .flex-control-thumbs {
+    display: none;
+}
+
+blockquote {
+    background-color: #f5f2eb;
+    font-size: 17.5px;
+    margin: 20px 0 20px 0;
+    padding: 30px 17px;
+    border-left: 0px;
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+}
+
+.mfp-bottom-bar {
+    margin-top: -90px;
+    left: 5%;
+}
+.mfp-title {
+    font-size: 16px;
+    background: rgba(198, 164, 126, 0.9);
+    width: 70%;
+    padding: 10px 20px;
+}
+.project-description h5 i{
+    color: #1daf2a;
+    font-size: 16px;
+}
+
+.cs-title-portfolio {
+    padding-bottom: 70px;
+}
+.cs-title-portfolio .cs-section-bdr {
+    left: 340px;
+}
+.cs-title-portfolio .portfolio-title {
+    background: $cod-gray;
+    padding: 20px 20px 20px 30px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-title-portfolio .portfolio-title:hover {
+    background: $galliano;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-title-portfolio .portfolio-title h4 {
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 0.8;
+}
+.cs-title-portfolio .portfolio-title h4 a{
+    font-family: $font-text-alt;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: $white;
+    line-height: 24px;
+}
+.cs-title-portfolio .portfolio-title p {
+    font-size: 9px;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.cs-title-portfolio .action-btn a {
+    color: $white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    top: 60px;
+}
+.cs-title-portfolio .action-btn a:focus {
+    outline: none;
+}
+
+/* 
+====================================================================
+    28. Portfolio Details css start
+====================================================================
+*/
+.cs-portfolio-details-area {
+    width: 100%;
+    padding: 80px 0 50px;
+}
+.cs-portfolio-details-area .cs-portfolio-col {
+    margin-bottom: 30px;
+}
+.cs-portfolio-details-area .cs-portfolio-col h3{
+    font-family: $font-text-alt;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+ }
+.cs-portfolio-details-area .cs-portfolio-col h6 {
+    color: $galliano;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+ }
+ .cs-portfolio-details-area .cs-portfolio-col h5 {
+    letter-spacing: 1px;
+ }
+.cs-portfolio-details-area .cs-portfolio-col h5 i {
+    color: $galliano;
+    margin-right: 5px;
+  }
+.cs-portfolio-details-area .cs-portfolio-col span {
+    font-family: $font-body;
+    font-style: italic;
+    font-size: 14px;
+}

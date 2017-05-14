@@ -1,0 +1,100 @@
+/* 
+====================================================================
+    31. Main Footer css start
+====================================================================
+*/
+.cs-main-footer {
+    padding: 80px 0px 0px;
+    background: #f7f7f7;
+}
+.cs-footer-col {
+    margin-bottom: 30px;
+}
+.cs-main-footer img {
+    width: 160px;
+    height: 42px;
+}
+.cs-main-footer ul li {
+    float: left;
+    margin: 0px 15px;
+}
+.cs-main-footer ul li a {
+    font-family: $font-text;
+    text-transform: uppercase;
+    color: #212227;
+    font-weight: 600;
+    font-size: 14px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-main-footer ul li a:hover {
+    color: $galliano;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-main-footer .form-control {
+    height: 35px;
+    border: none;
+    background: #F7F7F7;
+    border-bottom: 1px solid $silver-light;
+}
+.cs-sent-btn {
+    border-radius: 0px;
+    border: none;
+    background: #F7F7F7;
+    border-bottom: 1px solid $silver-light;
+}
+.cs-sent-btn:hover {
+    background: transparent;
+    border-color: $silver-light;
+}
+.cs-main-footer .icon {
+    font-size: 18px;
+}
+
+/* 
+====================================================================
+    32. Copyright css start
+====================================================================
+*/
+.cs-copyright-area {
+    padding: 10px 0px;
+    background: #F7F7F7;
+}
+.cs-copyright-area h5 {
+    font-family: $font-text-alt;
+    font-size: 11px;
+    margin-top: 5px;
+    line-height: 22px;
+    font-weight: normal;
+}
+.cs-copyright-area h5 a {
+    font-family: $font-text-alt;
+    font-size: 11px;
+    color: $galliano;
+    letter-spacing: 1px;
+}
+.cs-copyright-area a i {
+    font-size: 25px;
+    color: #C0C0C0;
+    margin-left: 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-copyright-area a i:hover {
+    color: $galliano;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}

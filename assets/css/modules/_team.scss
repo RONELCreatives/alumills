@@ -1,0 +1,222 @@
+/* 
+====================================================================
+    18. Team css start
+====================================================================
+*/
+.cs-team-area {
+    padding: 0px 0px 50px; 
+}
+.cs-team-col {
+    margin-top: 150px;
+    margin-bottom: 30px;
+    position: relative;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-team-area .cs-section-bdr {
+    left: 395px;
+}
+.cs-team-col .cs-team-social {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-team-col:hover .cs-team-social{
+    z-index: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-team-col .cs-team-social li {
+    float: right;
+    margin-left: 20px;
+}
+.cs-team-col .cs-team-social li a {
+    color: $cod-gray;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-team-col .cs-team-social li a:hover {
+    color: $galliano;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-team-col img {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-team-col:hover img {
+    padding-top: 35px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-team-col h5 {
+    font-family: $font-text-alt;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.cs-team-col span {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.cs-over-box {
+    width: 100%;
+    min-height: 355px;
+    border: 5px solid $galliano;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-team-col:hover .cs-over-box {
+    visibility: visible;
+    top: 95px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+/* 
+====================================================================
+    19. Team Details css end
+====================================================================
+*/
+
+.cs-team-details-area {
+    padding: 80px 0 50px;
+}
+.cs-team-details-area .cs-team-details-col {
+    margin-bottom: 30px;
+}
+.cs-details-box {
+    padding: 40px;
+    border: 4px solid $galliano;
+}
+.cs-details-box h3 {
+    font-family: $font-text-alt;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+.cs-details-box h6 {
+    font-weight: 600;
+    font-size: 12px;
+}
+.cs-details-box img {
+    width: 100px;
+    height: 58px;
+    float: right;
+}
+.cs-details-box .cs-icone-group ul li {
+    float: left;
+    margin-left: 20px;
+}
+.cs-details-box .cs-icone-group ul li a {
+    color: $cod-gray;
+}
+.cs-details-box .cs-icone-group ul li a:hover {
+    color: $galliano;
+}
+
+/*skill bar start*/
+
+.progress-levels {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.progress-levels .progress-box {
+    position: relative;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.progress-levels .progress-box:last-child {
+    margin-bottom: 0;
+}
+.progress-levels .progress-box:last-child {
+    margin-bottom: 0;
+}
+.progress-levels .progress-box .box-title {
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    color: #181818;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.progress-levels .progress-box .bar {
+    position: relative;
+    height: 10px;
+    background: #eeeeee;
+}
+.progress-levels .progress-box .bar .bar-innner {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 4px;
+}
+.progress-levels .progress-box .bar .bar-fill {
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 10px;
+    background: $galliano;
+    -moz-transition: all 2000ms ease 300ms;
+    -webkit-transition: all 2000ms ease 300ms;
+    -ms-transition: all 2000ms ease 300ms;
+    -o-transition: all 2000ms ease 300ms;
+    transition: all 2000ms ease 300ms;
+}
+.progress-levels .progress-box.animated .bar .bar-fill {
+    left: 0px;
+}
+.progress-levels .progress-box .percent {
+    position: absolute;
+    right: 0px;
+    top: -40px;
+    letter-spacing: 0px;
+    font-size: 18px;
+    color: #181818 !important;
+    line-height: 24px;
+    opacity: 1;
+    -moz-transition: all 2000ms ease 700ms;
+    -webkit-transition: all 2000ms ease 700ms;
+    -ms-transition: all 2000ms ease 700ms;
+    -o-transition: all 2000ms ease 700ms;
+    transition: all 2000ms ease 700ms;
+}
+.progress-levels .progress-box.animated .percent {
+    opacity: 1;
+}

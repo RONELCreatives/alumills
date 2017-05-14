@@ -1,0 +1,72 @@
+/* 
+====================================================================
+    12. Learn More css start
+====================================================================
+*/
+.cs-learnmore-bar {
+    padding: 50px 0px;
+    background: $galliano;
+}
+.cs-learnmore-bar h2 {
+    font-family: $font-text-alt;
+    font-weight: 400;
+    color: $white;
+    font-size: 30px;
+    margin-top: 5px;
+    letter-spacing: 5px;
+}
+
+.cs-more-service-area {
+    padding: 0 0 50px;
+    position: relative;
+}
+.cs-more-service-area .cs-hor-section-title .cs-section-bdr {
+    left: 350px;
+}
+.cs-more-service-col {
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 90px;
+}
+.cs-more-service-area .cs-more-service-col h2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 72px;
+    color: #eeeeee;
+    z-index: 111;
+}
+.cs-more-service-area .cs-more-service-col i {
+    position: absolute;
+    left: -15px;
+    top: 10px;
+    z-index: 222;
+    webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-more-service-area .cs-more-service-col:hover i {
+    color: $galliano;
+    webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-more-service-area .cs-more-service-col [class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+    font-size: 50px;
+}
+.cs-more-service-area .cs-more-service-col h4 {
+    font-size: 18px;
+}
+.cs-inner-sevice {
+    padding-top: 0;
+}
+.cs-inner-sevice .cs-more-service-col {
+    margin-top: 150px;
+}
+.cs-inner-sevice .mt20{
+    margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+/* 
+====================================================================
+    17. Counter css start
+====================================================================
+*/
+.cs-counter-area {
+    padding: 80px 0 0;
+}
+.cs-counter-area .cs-counter-col {
+    margin-bottom: 30px;
+}
+.cs-counter-area .cs-counter-col span {
+    font-size: 60px;
+    color: $galliano;
+    font-family: $font-text;
+}
+.cs-counter-area .cs-counter-col p {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/*counter-two start*/
+.cs-counter-two {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.cs-counter-two .cs-counter-col span {
+    color: $white;
+}
+.cs-counter-two .cs-counter-col p {
+    color: $white;
+}

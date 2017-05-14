@@ -1,0 +1,240 @@
+/* 
+====================================================================
+    11. Portfolio css start
+====================================================================
+*/
+.portfolio-style-two {
+    padding-top: 80px;
+}
+.portfolio-filter-item {
+    padding-bottom: 50px;
+    margin-top: 150px;
+}
+.portfolio .portfolio-item {
+    float: left;
+}
+
+.portfolio .portfolio-item .thumb {
+    position: relative;
+}
+
+.portfolio .portfolio-item .thumb img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portfolio-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.90);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.portfolio-item:hover .portfolio-hover,
+.portfolio-item:hover .portfolio-hover .portfolio-description,
+.portfolio-item:hover .portfolio-hover .action-btn {
+    opacity: 1;
+}
+
+
+.portfolio-item:hover .portfolio-hover .portfolio-description {
+    bottom: 45%;
+    margin-bottom: -60px;
+}
+
+.portfolio-item:hover .portfolio-hover .action-btn {
+    top: 40%;
+    margin-top: -50px;
+}
+
+.portfolio-hover .portfolio-description {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(-55%);
+    -ms-transform: translateY(-55%);
+    transform: translateY(-55%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+}
+
+
+.portfolio-hover .action-btn {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-transform: translateY(45%);
+    -ms-transform: translateY(45%);
+    transform: translateY(45%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    font-size: 35px;
+}
+
+.portfolio-description,
+.portfolio-description h4 a,
+.portfolio-hover .action-btn a {
+    font-family: $font-text-alt;
+    font-weight: 400;
+    text-align: center;
+    color: $mine-dark;
+}
+
+.portfolio-description h4 {
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.portfolio-description p {
+    font-size:12px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: $gray;
+}
+
+.portfolio-description a,
+.portfolio-title a {
+    color: $gray;
+}
+
+/*gutter*/
+
+.portfolio.gutter .portfolio-item {
+    padding: 10px;
+}
+
+
+/*portfolio 2 grid*/
+
+.portfolio.col-2 .portfolio-item {
+    width: 49.99%;
+}
+
+
+/*portfolio 3 grid*/
+
+.portfolio.col-3 .portfolio-item {
+    width: 33.3333333%;
+}
+
+/*portfolio 4 grid*/
+
+.portfolio.col-4 .portfolio-item {
+    width: 24.98%;
+}
+
+/*portfolio 5 grid*/
+
+.portfolio.col-5 .portfolio-item {
+    width: 19.99%;
+}
+
+/*portfolio 6 grid*/
+
+.portfolio.col-6 .portfolio-item {
+    width: 16.666666667%;
+}
+
+.portfolio-filter {
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.portfolio-filter li {
+    display: inline-block;
+}
+
+.portfolio-filter li a {
+    color: $silver-dark;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.portfolio-filter li a:hover,
+.portfolio-filter li.active a{
+    color: $mine-dark;
+}
+
+/*  portfolio style two  */
+
+.portfolio-style-two .portfolio-description h4{
+    font-size:18px;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+}
+.portfolio-style-two .portfolio-description p {
+    font-size:11px;
+    text-transform:uppercase;
+    font-weight: 600;
+    letter-spacing: 0;
+    letter-spacing: 5px;
+}
+.portfolio-style-two .portfolio-description p a{
+    color: $galliano;
+    font-family: $font-text-alt;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+
+.portfolio-style-two .portfolio-description h4 a{
+    color: $white;  
+}
+
+.portfolio-style-two .action-btn i:before {
+    font-size: 30px;
+    color: $white;
+}
+.portfolio-style-two .portfolio-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    border: 0;
+    transform: scale(0);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.portfolio-style-two .portfolio-item:hover .portfolio-hover .action-btn {
+  top: 42%
+}
+.portfolio-style-two .portfolio-item:hover .portfolio-hover {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.cs-portfolio-masonry-area {
+    padding-top: 0;
+    padding-bottom: 80px;
+}
+.cs-portfolio-masonry-area .portfolio-masonry {
+    margin-top: 150px;
+}
+.cs-portfolio-masonry-area .cs-section-bdr {
+    left: 340px;
+}

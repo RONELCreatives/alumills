@@ -1,0 +1,47 @@
+/* 
+====================================================================
+    29. Error css start
+====================================================================
+*/
+.cs-error-area {
+    padding: 80px 0;
+    text-align: center;
+}
+.cs-error-area h2 {
+    font-size: 36px;
+    font-family: $font-text-alt;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.cs-error-area h2 span {
+    color: $galliano;
+}
+.cs-big-text {
+    position: relative;
+}
+.cs-big-text h2 {
+    font-family: $font-text;
+    font-size: 300px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.86);
+}
+.cs-big-text h2 span {
+    color: $galliano;
+}
+.cs-big-text img {
+    width: 365px;
+    height: 185px;
+    position: absolute;
+    left: 35%;
+    top: 60%;
+}
+.cs-error-area h3 {
+    font-family: $font-text;
+    font-size: 38px;
+    font-weight: normal;
+    margin-top: 60px;
+}
+.cs-error-area .cs-my-btn-black {
+    padding: 10px 40px;
+    margin-top: 20px;
+}

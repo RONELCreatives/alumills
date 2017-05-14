@@ -1,0 +1,40 @@
+/* 
+====================================================================
+    22. Page Heading css start
+====================================================================
+*/
+.cs-page-heading-area {
+    padding: 300px 0 0 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.cs-page-linkbox {
+    width: 270px;
+    background: rgba(198, 164, 126, 0.8);
+    padding: 20px 30px;
+}
+.cs-page-linkbox h3 {
+    color: $white;
+    margin-bottom: 0;
+} 
+.cs-page-linkbox p, .cs-page-linkbox p a {
+    color: $white;
+    font-family: $font-body;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+} 
+.cs-page-linkbox p a:hover {
+    color: $silver-light;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+} 
+

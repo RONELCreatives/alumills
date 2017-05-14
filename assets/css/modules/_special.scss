@@ -1,0 +1,71 @@
+/* 
+====================================================================
+    10. specialization css start
+====================================================================
+*/
+.cs-specialization-area {
+    overflow: hidden;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(images/bg/1.jpg);
+}
+.cs-specialization-col .cs-title h2{
+    margin-left: -625px;
+    position: relative;
+}
+.cs-specialization-col .cs-title .cs-border-bottom {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
+.cs-white-bg-color {
+    background: $white;
+    height: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.cs-single-icon-box {
+    padding: 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-single-icon-box:hover {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-single-icon-box a {
+    color: $mine-shaft;
+}
+.cs-single-icon-box p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: $font-text-alt;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+.cs-single-icon-box [class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+    margin-left: 0;
+    font-size: 50px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.cs-single-icon-box:hover [class^="flaticon-"]:before, [class*=" flaticon-"]:before{
+    color: $galliano;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
